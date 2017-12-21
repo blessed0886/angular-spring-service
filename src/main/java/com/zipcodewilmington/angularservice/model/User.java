@@ -1,6 +1,8 @@
-package com.zipcodewilmington.angularservice.domain;
+package com.zipcodewilmington.angularservice.model;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
 
 	private Long id;
     private String firstName;

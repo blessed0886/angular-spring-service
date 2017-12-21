@@ -1,4 +1,4 @@
-package com.zipcodewilmington.angularservice.domain;
+package com.zipcodewilmington.angularservice.model;
 
 import org.junit.Test;
 

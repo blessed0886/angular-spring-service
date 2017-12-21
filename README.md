@@ -10,8 +10,9 @@
 * Project details
     * The root directory of this project contains 2 notable directories
         * The `app` directory
+            * Use [this URI](https://github.com/Zipcoder/angular-spring-service-client.git) to clone your client-side application. 
             * Contains all of the angular content.
-            * Navigate to this directory and run `npm start` or `ng serve` to begin serving your webpage.            
+            * Navigate to this directory and run `npm start` or `ng serve` to begin serving your webpage.
             
         * The `src` directory
             * Contains all of the java content.
@@ -19,6 +20,4 @@
             
 * Helpful hints:
     * Kill zombie processes running on port 8080 via this command.
-    * ```
-    kill -kill `lsof -t -i tcp:3000`
-    ```
+    * ```kill -kill `lsof -t -i tcp:3000```

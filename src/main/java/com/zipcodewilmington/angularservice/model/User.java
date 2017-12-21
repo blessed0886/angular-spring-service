@@ -1,17 +1,24 @@
 package com.zipcodewilmington.angularservice.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.io.Serializable;
 
+@Entity
 public class User implements Serializable {
 
+    @Id
+    @Column(name = "id")
 	private Long id;
+    @Column(name = "firstName")
     private String firstName;
 
 	public User() {}
 
-    public User(Long id, String fname) {
+    public User(Long id, String name) {
         this.id = id;
-        this.firstName = fname;
+        this.firstName = name;
     }
 
     public Long getId() {

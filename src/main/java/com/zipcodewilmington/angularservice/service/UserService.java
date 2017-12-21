@@ -3,19 +3,21 @@ package com.zipcodewilmington.angularservice.service;
 import com.zipcodewilmington.angularservice.model.User;
 import com.zipcodewilmington.angularservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 
 /**
  * Created by leon on 12/21/17.
  */
+@Service
 public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    public void add(User user) {
+    public User add(User user) {
         user.setId(userRepository.count());
-        userRepository.save(user);
+        return userRepository.save(user);
     }
 
     public void update(User user) {

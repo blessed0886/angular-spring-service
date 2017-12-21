@@ -1,7 +1,10 @@
 # MVP Spring and Angular Communication
+* Purpose:
+    * Using this micro-project, demonstrate your ability to communicate between two different technology stacks: [Spring](https://spring.io/), and [Angular](https://angular.io/).
+    
 * Objective:
     * Implement a class `UserController` which adds `User` objects to a `UserRepository` using a composite `UserService` object.
-    * The `UserController` should invoke the `add` upon clicking the `submit` button on the angular application.
+    * The `UserController` should invoke the `add` method upon clicking the `submit` button on the angular application.
     * You are expected to implement any tests you deem _necessary_.
 
 * Project details

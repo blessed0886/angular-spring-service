@@ -14,4 +14,8 @@
             * Contains all of the java content.
             * Navigate tot his directory and run `mvn spring-boot:run`
             
-* 
+* Helpful hints:
+    * Kill zombie processes running on port 8080 via this command.
+    * ```
+    kill -kill `lsof -t -i tcp:3000`
+    ```
